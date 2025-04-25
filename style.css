@@ -1,0 +1,180 @@
+/* Base Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #cfd9df, #e2ebf0);
+    color: #333;
+    padding-top: 80px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #203a43;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 25px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #00bcd4;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    border-bottom: 5px solid #00bcd4;
+  }
+  
+  header img.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  
+  /* Container */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Section */
+  section {
+    padding: 60px 0;
+  }
+  
+  .about, .skills, .contact {
+    text-align: center;
+  }
+  
+  /* Skills */
+  .skill-bar {
+    margin-bottom: 30px;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    height: 12px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .progress {
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .progress.python {
+    background-color: #2196f3;
+    width: 80%;
+  }
+  
+  .progress.web {
+    background-color: #ff9800;
+    width: 70%;
+  }
+  
+  .progress.digital-marketing {
+    background-color: #4caf50;
+    width: 75%;
+  }
+  
+  /* Resume Button */
+  .resume-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+  
+  .resume-btn:hover {
+    background-color: #008c9e;
+  }
+  
+  /* Contact Form */
+  form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.1em;
+  }
+  
+  form button {
+    background-color: #00bcd4;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  form button:hover {
+    background-color: #008c9e;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0f2027;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+  }
+  
+  footer .social-icons a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer .social-icons i {
+    font-size: 24px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      width: 90%;
+    }
+  }
+  
